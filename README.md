@@ -1,8 +1,8 @@
-# Parallel Proof-of-Work
-A cumulative security system for proof-of-work blockchains
+# Parallel Proof-of-Work: A cumulative security system for proof-of-work blockchains
 
 
-**Abstract**  Exogenous mining power presents an ongoing threat to the security of independent blockchains. Two or more independent blockchains implementing a single proof-of-work algorithm will result in only one strongly secure blockchain because no economic incentive prevents mining nodes on the strongest blockchain from attacking a weaker one. Parallel proof-of-work combines the cumulative work done in all participating networks, removing wasted competition, and bringing all networks to consensus by adding up their work.  
+**Abstract**  
+Exogenous mining power presents an ongoing threat to the security of independent blockchains. Two or more independent blockchains implementing a single proof-of-work algorithm will result in only one strongly secure blockchain because no economic incentive prevents mining nodes on the strongest blockchain from attacking a weaker one. Parallel proof-of-work combines the cumulative work done in all participating networks, removing wasted competition, and bringing all networks to consensus by adding up their work.  
 
 ## Introduction
 We propose a proof-of-work system separating a block into two distinct logical categories.  First, a header containing proof-of-work and a transaction tree, called the _consensus proof_. Second, a set of blocks called _parallel blocks_, each one containing the set of transactions from a corresponding participating blockchain.  Nodes compete to find proof-of-work to secure all parallel blocks.
