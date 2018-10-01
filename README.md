@@ -37,24 +37,24 @@ The result is collaboration between multiple blockchains using the same mining a
 
 
 ## FAQ
-### What happens to miners on each separate chain?
+#### What happens to miners on each separate chain?
 Miners are now mining for a single nonce that validates the blocks of all parallel chains.
 
-### Who gets rewarded for mining now?
+#### Who gets rewarded for mining now?
 Miners get to reward themselves a coinbase for _every parallel blockchain_ in the system if they find valid proof-of-work.
 
-### What does "exogeneous mining power is a threat" mean?
+#### What does "exogeneous mining power is a threat" mean?
 Exogeneous mining power is a threat means when DOGE hashrate falls, the LTC hashrate is a threat to the DOGE security model, because LTC miners have no incentive to not attack the DOGE chain. (DOGE and LTC both have ~200TH right now, but if DOGE falls lower, they are vulnerable to attack).
 
-### Don't network protocols need to be compatible for this to work?
+#### Don't network protocols need to be compatible for this to work?
 Network protocols definitely need to be compatible, practically speaking, this would be merging a few coins' networks together.
 
-### How does transaction verification work?
+#### How does transaction verification work?
 We're using the same method of checking transactions as bitcoin, litecoin, etc.
 
-### Do all nodes need to have the same difficulty and blocktime rules?
+#### Do all nodes need to have the same difficulty and blocktime rules?
 Yes. Fundamentally this isn't an issue because blocktime isn't significant, cumulative work over time is what is really significant.
 
-### Doesn't this make the the chain as strong as the weakest link?
+#### Doesn't this make the the chain as strong as the weakest link?
 No. Actually, this solution came about to solve that exact issue. When all miners are mining to find the same nonce, and all blockchains are using that nonce to consider their blocks valid, there is no weakest or strongest chain. They are all secured by the same hashrate.
 
