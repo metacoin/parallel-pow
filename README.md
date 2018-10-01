@@ -10,8 +10,8 @@ Include deeper discussion on the current state of PoW security
 We propose a proof-of-work system separating a block into two distinct logical categories.  First, a header containing proof-of-work and a transaction tree, called the _consensus proof_. Second, a set of blocks called _parallel blocks_, each one containing the set of transactions from a corresponding participating blockchain.  Nodes compete to find proof-of-work to secure all parallel blocks.
 
 ## Background
-Merge mining/auxiliary proof of work namecoin
-51% attack costs https://www.crypto51.app/ 
+Merge mining/auxiliary proof of work namecoin  
+51% attack costs https://www.crypto51.app/   
 Sharding paradigms/IBC
 
 ## Definitions
